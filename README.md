@@ -1,5 +1,5 @@
 # bezier-interpolations
-This python script demonstrate how to get Bezier interpolations (as opposed to linear interpolation) out of several layers of a single glyph.
+This python script for RoboFont demonstrates how to get Bezier interpolations (as opposed to linear interpolation) out of several layers of a single glyph.
 
 ## How to do
 1. Draw the initial state of the glyph
