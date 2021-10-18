@@ -18,7 +18,7 @@ def quadraticInverse(glyphName, t, startLayer, stepLayer, endLayer, offLayer):
     gOff.clear()
     mgOff = (mgStep - k*k*mg - t*t*mgEnd)/(t*k*2)
     pen = gOff.getPen()
-    mgOff.draw(pen)
+    mgOff.draw(pen, filterRedundantPoints=True)
 
 def cubicInverse(glyphName, t1, t2, startLayer, step1Layer, step2Layer, endLayer, off1Layer, off2Layer):
     mathG = mathGlyph.MathGlyph
@@ -45,10 +45,10 @@ def cubicInverse(glyphName, t1, t2, startLayer, step1Layer, step2Layer, endLayer
     mgOff2 = (((-k2)/(k1*t1))*mg1 + (k1/(k2*t2))*mg2)/denom
 
     gOff1.clear()
-    mgOff1.draw(gOff1.getPen())
+    mgOff1.draw(gOff1.getPen(), filterRedundantPoints=True)
 
     gOff2.clear()
-    mgOff2.draw(gOff2.getPen())
+    mgOff2.draw(gOff2.getPen(), filterRedundantPoints=True)
 
 
 # Tests:
