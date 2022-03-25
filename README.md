@@ -34,7 +34,7 @@ DESIGN SPACE FOR CUBIC BEZIER INTERPOLATION:
                   |                                | 
                      
                   |                                |
-                     
+                            (glyphTarget2)                     
                   |                                | 
                      
                   |                                |
@@ -43,14 +43,14 @@ DESIGN SPACE FOR CUBIC BEZIER INTERPOLATION:
                  
                 glyphOff2 ---------------------  glyphOff2
     
-                   /     (glyphTarget)
+                   /     
      
     glyphOff1  --/---------------- glyphOff1
     
      |         /                      | 
      
      |       /                        |
-     
+                (glyphTarget1)
      |     /                          | 
      
      |   /                            |
