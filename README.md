@@ -10,7 +10,7 @@ This python script for RoboFont demonstrates how to get Bezier interpolations (a
 5. Set up your design space as llustrated below
 6. Moving together the 2 axes (3 axes for Cubic) will generate the Bezier interpolation 
 
-DESIGN SPACE FOR QUADRATIC BEZIER INTERPOLATION
+DESIGN SPACE FOR QUADRATIC BEZIER INTERPOLATION:
 
     glyphOff  -------------------- glyphEnd
   
@@ -27,4 +27,34 @@ DESIGN SPACE FOR QUADRATIC BEZIER INTERPOLATION
     glyphStart --------------------  glyphOff
  
 
-The design space for Cubic Bezier interpolation is similar but has the shape of a cube
+DESIGN SPACE FOR CUBIC BEZIER INTERPOLATION:
+
+                glyphOff2  ------------------- glyphEnd
+                    
+                  |                                | 
+                     
+                  |                                |
+                     
+                  |                                | 
+                     
+                  |                                |
+                     
+                  |                                |
+                 
+                glyphOff2 ---------------------  glyphOff2
+    
+                   /     (glyphTarget)
+     
+    glyphOff1  --/---------------- glyphOff1
+    
+     |         /                      | 
+     
+     |       /                        |
+     
+     |     /                          | 
+     
+     |   /                            |
+     
+     | /                              |
+       
+    glyphStart --------------------  glyphOff1
