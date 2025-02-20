@@ -1,0 +1,179 @@
+{
+"axes": {
+"axes": [
+{
+"name": "Bend",
+"label": "Bend",
+"tag": "BEND",
+"minValue": 0,
+"defaultValue": 0,
+"maxValue": 100
+},
+{
+"name": "Bend-2",
+"label": "Bend-2",
+"tag": "BND2",
+"minValue": 0,
+"defaultValue": 0,
+"maxValue": 100,
+"hidden": true
+}
+],
+"mappings": [
+{
+"description": null,
+"groupDescription": null,
+"inputLocation": {
+"Bend": 100
+},
+"outputLocation": {
+"Bend-2": 100
+}
+}
+]
+},
+"sources": {
+"::fontra001-c1bc0cf3": {
+"name": "Bend-middle-1",
+"location": {
+"Bend": 100,
+"Bend-2": 0
+},
+"lineMetricsHorizontalLayout": {
+"ascender": {
+"value": 750,
+"zone": 16
+},
+"capHeight": {
+"value": 750,
+"zone": 16
+},
+"xHeight": {
+"value": 500,
+"zone": 16
+},
+"descender": {
+"value": -250,
+"zone": -16
+},
+"baseline": {
+"value": 0,
+"zone": -16
+}
+}
+},
+"::fontra002-79e386be": {
+"name": "Bend-middle-2",
+"location": {
+"Bend": 0,
+"Bend-2": 100
+},
+"lineMetricsHorizontalLayout": {
+"ascender": {
+"value": 750,
+"zone": 16
+},
+"capHeight": {
+"value": 750,
+"zone": 16
+},
+"xHeight": {
+"value": 500,
+"zone": 16
+},
+"descender": {
+"value": -250,
+"zone": -16
+},
+"baseline": {
+"value": 0,
+"zone": -16
+}
+}
+},
+"::fontra003-c28ff2e7": {
+"name": "Bend-end",
+"location": {
+"Bend": 100,
+"Bend-2": 100
+},
+"lineMetricsHorizontalLayout": {
+"ascender": {
+"value": 750,
+"zone": 16
+},
+"capHeight": {
+"value": 750,
+"zone": 16
+},
+"xHeight": {
+"value": 500,
+"zone": 16
+},
+"descender": {
+"value": -250,
+"zone": -16
+},
+"baseline": {
+"value": 0,
+"zone": -16
+}
+}
+},
+"::fontra004-68ee1461": {
+"name": "step",
+"isSparse": true,
+"location": {
+"Bend": 20.691714,
+"Bend-2": 0
+}
+},
+"::fontra005-dde2f9b1": {
+"name": "step#1",
+"isSparse": true,
+"location": {
+"Bend": 18.913386,
+"Bend-2": 0
+}
+},
+"de23a2d5": {
+"name": "Regular",
+"location": {
+"Bend": 0,
+"Bend-2": 0
+},
+"lineMetricsHorizontalLayout": {
+"ascender": {
+"value": 750,
+"zone": 16
+},
+"capHeight": {
+"value": 750,
+"zone": 16
+},
+"xHeight": {
+"value": 500,
+"zone": 16
+},
+"descender": {
+"value": -250,
+"zone": -16
+},
+"baseline": {
+"value": 0,
+"zone": -16
+}
+}
+}
+},
+"customData": {
+"fontra.projectGlyphSets": [
+{
+"commentChars": "#",
+"dataFormat": "glyph-names",
+"name": "GF Latin Kernel",
+"url": "https://raw.githubusercontent.com/googlefonts/glyphsets/main/data/results/txt/nice-names/GF_Latin_Kernel.txt"
+}
+]
+}
+}

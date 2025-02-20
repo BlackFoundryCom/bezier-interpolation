@@ -1,0 +1,198 @@
+{
+"name": "C",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"Bend": 0,
+"Bend-2": 0
+}
+},
+{
+"name": "Bend-middle-1",
+"layerName": "Bend-middle-1",
+"location": {
+"Bend": 100,
+"Bend-2": 0
+}
+},
+{
+"name": "Bend-middle-2",
+"layerName": "Bend-middle-2",
+"location": {
+"Bend": 0,
+"Bend-2": 100
+}
+},
+{
+"name": "Bend-end",
+"layerName": "Bend-end",
+"location": {
+"Bend": 100,
+"Bend-2": 100
+}
+},
+{
+"name": "step",
+"layerName": "step",
+"location": {
+"Bend": 20.691714,
+"Bend-2": 0
+},
+"inactive": true
+}
+],
+"layers": {
+"Bend-end": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 409,
+"y": 354
+},
+{
+"x": 55,
+"y": 0
+},
+{
+"x": 146,
+"y": -91
+},
+{
+"x": 500,
+"y": 262
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 500
+}
+},
+"Bend-middle-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 260,
+"y": 497
+},
+{
+"x": 55,
+"y": 0
+},
+{
+"x": 183,
+"y": -52
+},
+{
+"x": 390,
+"y": 445
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 500
+}
+},
+"Bend-middle-2": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 260,
+"y": 497
+},
+{
+"x": 55,
+"y": 0
+},
+{
+"x": 183,
+"y": -52
+},
+{
+"x": 390,
+"y": 445
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 500
+}
+},
+"default": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 55,
+"y": 500
+},
+{
+"x": 55,
+"y": 0
+},
+{
+"x": 184,
+"y": 0
+},
+{
+"x": 184,
+"y": 500
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 500
+}
+},
+"step": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 246,
+"y": 462
+},
+{
+"x": 55,
+"y": 0
+},
+{
+"x": 174,
+"y": -49
+},
+{
+"x": 366,
+"y": 413
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 500
+}
+}
+}
+}
